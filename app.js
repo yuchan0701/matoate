@@ -6,13 +6,13 @@ mato1.style.position = "absolute";
 var point = 0;
 
 
-//‚±‚±‚¾‚æ‚ðƒNƒŠƒbƒN‚·‚é‚Æ@‚±‚¤‚È‚é
+//ã“ã“ã ã‚ˆã‚’ã‚¯ãƒªãƒƒã‚¯ã™ã‚‹ã¨ã€€ã“ã†ãªã‚‹
 function touch(){
 
 
 
-var ranX = Math.round( Math.random()*1000 )
-var ranY = Math.round( Math.random()*800 )
+var ranX = Math.round( Math.random()*(window.innerWidth) )
+var ranY = Math.round( Math.random()*(window.innerHeight) )
 
 mato1.style.left = ranX + "px";
 mato1.style.top = ranY + "px";
@@ -22,7 +22,7 @@ point ++;
 
 }
 
-//ŽžŠÔ§ŒÀ
+//æ™‚é–“åˆ¶é™
 let count = 10;
   const countUp = () => {
     console.log(count--);
