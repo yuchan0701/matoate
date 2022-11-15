@@ -14,6 +14,8 @@ function touch(){
 var ranX = Math.round( Math.random()*(window.innerWidth) )
 var ranY = Math.round( Math.random()*(window.innerHeight) )
 
+console.log(window.innerHeight,window.innerWidth);
+
 mato1.style.left = ranX + "px";
 mato1.style.top = ranY + "px";
 
